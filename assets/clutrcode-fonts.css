@@ -1,0 +1,53 @@
+/* Clutrcode custom fonts — Erica One (display) + Geist Mono (everything else) */
+
+@font-face {
+  font-family: "Erica One";
+  src: url("erica-one-v29-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("geist-mono-v6-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("geist-mono-v6-latin-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("geist-mono-v6-latin-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Force Clutrcode fonts onto Tinker's type system.
+   Erica One drives all headings; Geist Mono drives body, labels, buttons, everything else. */
+:root {
+  --font-heading--family: "Erica One", sans-serif !important;
+  --font-accent--family: "Erica One", sans-serif !important;
+  --font-body--family: "Geist Mono", monospace !important;
+  --font-subheading--family: "Geist Mono", monospace !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Erica One", sans-serif !important;
+}
+
+body,
+button, input, select, textarea,
+.button, [class*="button"] {
+  font-family: "Geist Mono", monospace !important;
+}
