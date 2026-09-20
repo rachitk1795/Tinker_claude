@@ -593,7 +593,7 @@
                           "type": "icon",
                           "name": "t:names.icon",
                           "settings": {
-                            "icon": "plant",
+                            "icon": "map_pin",
                             "width": 24,
                             "link": "",
                             "open_in_new_tab": false,
