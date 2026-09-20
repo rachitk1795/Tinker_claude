@@ -103,7 +103,7 @@
         "section_height": "small",
         "section_height_custom": 50,
         "background_media": "none",
-        "background_color": "#F7F0E1",
+        "background_color": "#f7f0e1",
         "video_position": "cover",
         "background_image_position": "cover",
         "toggle_overlay": false,
@@ -159,7 +159,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h3>Make Your Workspace Yours</h3>",
+                "text": "<h3>Cool stuff That works.</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
