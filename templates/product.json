@@ -862,6 +862,47 @@
         "padding-block-end": 32
       }
     },
+    "marquee_CwxEa6": {
+      "type": "marquee",
+      "blocks": {
+        "text_8rJTRa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make things that work better and last longer.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_8rJTRa"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "background_color": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
     "section_eMG4fn": {
       "type": "section",
       "blocks": {
@@ -1354,21 +1395,6 @@
         "padding-block-end": 48
       }
     },
-    "divider_VXn8nx": {
-      "type": "divider",
-      "name": "t:names.divider_section",
-      "settings": {
-        "background_color": "",
-        "divider_color": "",
-        "section_width": "full-width",
-        "thickness": 1,
-        "corner_radius": "square",
-        "width_percent": 100,
-        "alignment_horizontal": "center",
-        "padding-block-start": 16,
-        "padding-block-end": 16
-      }
-    },
     "media_with_content_89qaf3": {
       "type": "media-with-content",
       "blocks": {
@@ -1769,8 +1795,8 @@
   },
   "order": [
     "main",
+    "marquee_CwxEa6",
     "section_eMG4fn",
-    "divider_VXn8nx",
     "media_with_content_89qaf3",
     "product_list_zR9Cym"
   ]
