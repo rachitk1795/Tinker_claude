@@ -12,11 +12,11 @@
     "section": {
       "type": "section",
       "blocks": {
-        "image_RJHjEd": {
+        "image_qQLc3i": {
           "type": "image",
           "name": "t:names.image",
           "settings": {
-            "image": "shopify://shop_images/Bookmark.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Sep_20_2026_at_04_59_09_PM.png",
             "link": "",
             "image_ratio": "adapt",
             "width": "fill",
@@ -135,7 +135,7 @@
         }
       },
       "block_order": [
-        "image_RJHjEd",
+        "image_qQLc3i",
         "group_KwyQPe"
       ],
       "name": "t:names.heading",
