@@ -203,7 +203,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Bundle Offers (No code required)</p>",
+                    "text": "<p><strong>Bundle Offers (No code required)</strong></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
