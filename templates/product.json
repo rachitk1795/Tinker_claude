@@ -235,7 +235,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>Buy 3 for ₹459<br/>Buy 5 for ₹699</strong></p>",
+                "text": "<p><strong>Buy any 3 for ₹459<br/>Buy any 5 for ₹699</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
